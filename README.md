@@ -15,11 +15,5 @@ To sum-up, by using this, *it is possible to break things on your host system*. 
 
 ## Usage
 
-```
-docker pull vidiben/ansible
-
-cd adirectory
-git clone https://github.com/vidiben/docker-ansible.git
-``̀
-
-From your ansible playbook directory, you should not be able to call /a/directory/docker-ansible/ansible and ansible-playbook.
+* clone [the git repository](https://github.com/vidiben/docker-ansible)
+* use the provided ansible and ansible-playbook commands to run your playbooks
