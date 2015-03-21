@@ -11,7 +11,7 @@ The $HOME/.ssh is mounted read-only and the currently directory is mounted with 
 
 The user running ansible inside the container should get the same id and group id than the user running the container.
 
-To sum-up, by using this, *it is possible to break things on your host system*. Use with care.
+To sum-up, by using this, **it is possible to break things on your host system**. Use with care.
 
 ## Usage
 
